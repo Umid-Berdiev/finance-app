@@ -1,3 +1,5 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ant-layout {
+    min-height: 100vh;
+}
+
+.header {
+    border: 1px solid lightgray;
+    background: #ffffff;
+    height: auto;
+}
+
+.footer {
+    border: 1px solid lightgray;
+    background: #ffffff;
 }
